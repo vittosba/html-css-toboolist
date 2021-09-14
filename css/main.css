@@ -1,9 +1,14 @@
+/* GENERAL STYLE */
+/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+/* UTILITIES */
+
 
 /* HEADER */
 header {
@@ -18,4 +23,36 @@ header {
     font-size: 30px;
     vertical-align: middle;
     font-weight: bold;
+}
+
+/* MAIN */
+main {
+    height: 100%;
+    background-color: #f6f8f9;
+    padding: 40px 0;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    padding: 10px 20px 40px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Options */
+.options {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 218, 218);
+}
+
+.add-task{
+    background-color: #47adf2;
+    color: white;
+}
+
+.add-section {
+    background-color: white;
+    color: rgb(167 165 165 / 71%);
 }
