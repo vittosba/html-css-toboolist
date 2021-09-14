@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* HEADER */
+header {
+    margin: 10px;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.title {
+    font-size: 30px;
+    vertical-align: middle;
+    font-weight: bold;
+}
